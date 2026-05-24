@@ -1,0 +1,12 @@
+package main
+
+import "fmt"
+
+func main() {
+	x := 5
+	y := &x
+
+	fmt.Println("X : ", x)
+	fmt.Println("Y : ", y)
+	fmt.Println("Dereferencing : ", *y)
+}
