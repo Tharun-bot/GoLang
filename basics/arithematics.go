@@ -1,14 +1,14 @@
-package main
+package basics
 
 import "fmt"
 
 func main() {
 	var a, b int = 1, 2
-	var sum = a + b
+	var sum int = a + b
 
-	c, d := 1.0, 2.0
+	var c, d float32 = 1.0, 2.0
 
-	var div float64 = c / d
+	var div float32 = c / d
 
 	fmt.Printf("Sum is : %d\n", sum)
 	fmt.Println("Division : ", div)
