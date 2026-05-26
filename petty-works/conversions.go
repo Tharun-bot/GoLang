@@ -1,3 +1,6 @@
+//For mul, div. The operands must be of same type, Float32(x)
+//fmt.Scanf(ref) - for user input
+
 package main
 
 import (
